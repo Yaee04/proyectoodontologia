@@ -1,0 +1,109 @@
+body {
+    position:relative;
+    min-height: 100%;
+    background-color: #F0FFFF;
+  }
+  
+
+
+header {
+    background-color: #ADD8E6;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+  
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+     color: #C78C19;
+     text-decoration: underline;
+}
+
+#banner{
+    width:100%;
+    height: 500px;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/foto-dentista.png);
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.copy {
+    font-size: 13px;
+    margin: 20px;
+}

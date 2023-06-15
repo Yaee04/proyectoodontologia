@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <title> Contacto - odontologia</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <!-- Sección de encabezado -->
+        <header>
+            <div class="caja">
+           <h1> <img class="logo" src="imagenes/logo.png" alt="Logo del consultorio Odontologico" ></h1>
+           <nav>
+           <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="productos.html"> Productos</a></li>
+            <li><a href="contacto.html"> Contacto</a></li>
+           </ul>
+           </nav>
+        </div>
+    </header>
+
+        <!-- Sección de contenido principal -->
+        <main>
+            <!-- Campos del formulario -->
+           <form>
+            <label for="nombreapellido"> Nombre y Apellido </label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+            <label for="correoelectronico"> Correo electronico </label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+            <label for="tel"> Telefono </label>
+            <input type="text" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje"> Mensaje </label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required ></textarea>
+            
+            
+        <fieldset>
+            <legend>¿Como le gustaria ser contactado?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+            
+             
+            <label for="radio-whatsapp"> <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            
+        </fieldset>
+        </div>
+        <fieldset>
+         <legend> Seleccione la fecha en el que desea ser atendido/a: </legend>
+        <label for="fecha"></label>
+        <input class="boton-horarioyfecha" type="date" id="fecha" name="fecha">
+        <legend> Seleccione el horario en el que desea ser atendido/a: </legend>
+        <select class="boton-horarioyfecha">
+            <option> 08:00 </option>
+            <option> 09:00 </option>
+            <option> 10:00 </option>
+            <option> 11:00 </option>
+            <option> 12:00 </option>
+            <option> 13:00 </option>
+            <option> 14:00 </option>
+            <option> 15:00 </option>  
+        </select>
+       </fieldset>
+        <label class="checkbox"> <input type="checkbox" checked> ¿Le gustaria recibir novedades del consultorio Odontologico? </label>
+           
+            <input type="submit" name="contacto" value="Enviar formulario" class="enviar">
+           </form>
+       <!-- ... -->
+       <!-- Sección de tabla --> 
+           <table>
+            <p class="dispo"> Disponibilidad horaria: </p>
+            <thead>
+            <tr>
+                <td>Dia</td>
+                <th>Horario</th>
+            </tr>
+           </thead>
+            <tbody>
+            <tr>
+                <td>Lunes</td>
+                <th> 08:00 - 16:00</th>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <th> 08:00 - 16:00</th>
+            </tr>
+            <tr>
+                <td>Miercoles</td>
+                <th> 08:00 - 16:00</th>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <th> 08:00 - 16:00</th>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <th> 08:00 - 16:00</th>
+            </tr>
+           </table>
+         </tbody>
+
+        </main>
+ 
+        <!-- footer -->
+
+        <footer>
+            <img  src="imagenes/logochico.png" alt="Loguito del consultorio Odontologico">
+            <p class="copy"> &copy; Copyright Odontologia Yael - 2023</p>
+          </footer>
+
+        <!-- Archivo JavaScript -->
+          <script src="contacto.js"></script>
+       </body>
+   </html>
